@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "cw-metric-propagator"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-qjfmu2x1ftn8"
+s3_prefix = "cw-metric-propagator"
+region = "us-east-1"
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
