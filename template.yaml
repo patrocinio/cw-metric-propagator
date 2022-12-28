@@ -20,6 +20,8 @@ Resources:
       CodeUri: src/
       Handler: metricStreamsToCloudWatch.handler
       Runtime: nodejs16.x
+      Policies:
+      - AmazonS3FullAccess
       Architectures:
         - x86_64
 
