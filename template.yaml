@@ -21,7 +21,8 @@ Resources:
       Handler: metricStreamsToCloudWatch.handler
       Runtime: nodejs16.x
       Policies:
-      - AmazonS3FullAccess
+      - S3FullAccessPolicy:
+            BucketName: <your-bucket-name>
       Architectures:
         - x86_64
 
